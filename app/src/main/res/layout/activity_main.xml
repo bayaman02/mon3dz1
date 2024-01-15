@@ -17,24 +17,25 @@
         android:background="@color/pirple" />
 
     <EditText
+        android:id="@+id/et_odin"
         android:layout_marginHorizontal="20sp"
         android:layout_marginBottom="12sp"
-        app:layout_constraintBottom_toTopOf="@id/bt_2"
+        app:layout_constraintBottom_toTopOf="@id/et_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите email" />
 
     <EditText
-        android:id="@+id/bt_2"
+        android:id="@+id/et_2"
         android:layout_marginHorizontal="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите "
-        app:layout_constraintBottom_toTopOf="@id/bnt_bottom"
+        app:layout_constraintBottom_toTopOf="@id/et_three"
         android:layout_marginBottom="12sp"/>
 
     <EditText
-        android:id="@+id/bnt_bottom"
+        android:id="@+id/et_three"
         android:layout_marginHorizontal="20sp"
         android:layout_marginBottom="45sp"
         app:layout_constraintBottom_toTopOf="@id/btn_galery"
